@@ -21,12 +21,15 @@
 		echo "$first_num and $second_num are the same";
 		
 	}
-	
-	
-	
-	
-	
 	?>
+	
+
+	<form action="submit.php" method="POST">
+	<input type="text" name = "input_text"/>
+	<input type="submit" name = "submit_button"/>
+	</form>
+	
+	
 	
 	</body>
 </html>
